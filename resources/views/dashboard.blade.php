@@ -76,6 +76,11 @@
                             @endif
                         </div>                        
                         <!-- Filter Year End-->
+
+                        <hr>
+                        <div class="text-center">
+                            <h4 class="fw-bold text-danger">Hello, {{$employee->first_name}} {{$employee->last_name}}</h4>
+                        </div>
                     </div>
                   </div>
             </div>
